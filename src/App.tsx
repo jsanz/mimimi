@@ -26,11 +26,11 @@ function App() {
         <form>
           <div className="grid">
             <label htmlFor="entry">
-              Tu texto a mimimificar
+              The text you want to mimimify
               <textarea onChange={onChangeHandle} id="entry" defaultValue="Paste your text here"></textarea>
             </label>
             <label htmlFor="output">
-              Ihí li llivis:
+              Thiri yii gi:
               <textarea readOnly={true} id="output" value={mimimi}>
               </textarea>
             </label>
