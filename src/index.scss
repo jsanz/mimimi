@@ -1,0 +1,5 @@
+// Import full Pico source code
+$enable-responsive-spacings: false;
+$enable-responsive-typography: true;
+
+@import "../node_modules/@picocss/pico/scss/pico.scss";
